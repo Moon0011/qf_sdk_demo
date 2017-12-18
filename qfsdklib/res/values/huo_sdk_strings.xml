@@ -5,4 +5,6 @@
     <string name="huo_sdk_btn_server">客服</string>
     <string name="huo_sdk_btn_bbs">论坛</string>
     <string name="huo_sdk_btn_identify">实名认证</string>
+    <string name="huo_sdk_rsastr">R8wv+2r+uCthOGAfTTuW1fB9tGVek0GVtk253unHeky+xGRr99MWz31PSOBkxkLSKWKpQUg2jakdzrfkcLzKRYw7SPT11/LyBwWJ1WYfDlqUe+V74TbphgeXZYa8R7ZkX7rR3wTnXjtIghSyWdToDpBmLDAUWm/F8vf8MzwQsNE=</string>
+    <string name="rsa_public_key">MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9mBYpgIHSfxD9IMojCy7liFT/W+FZbPt6WUypsKGlt9DWtxOmdo4c4jnBJ1uYpfGFtuYFR/P6vKPTTY6U9k535RqZGg9W6q5Q3lAoKbzGdL2MABA71sRp1jwLyqwTLSxCU7CV6SPJ1o4byJLXk1JHC3zz0HztV/T5luT9sU2GOQIDAQAB</string>
 </resources>
