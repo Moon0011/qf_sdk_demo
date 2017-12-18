@@ -38,5 +38,4 @@
     <style name="huo_sdk_FullscreenTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
         <!-- Customize your theme here. -->
     </style>
-
 </resources>
