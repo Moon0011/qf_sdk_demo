@@ -93,6 +93,11 @@
 -keep class com.fanwei.** {*;}
 -dontwarn com.opensdk.**
 -keep class com.opensdk.** {*;}
+
+#===============海贝支付====================
+-dontwarn com.yolanda.nohttp.**
+-keep class com.yolanda.nohttp.** {*;}
+
 #==================百度定位==========================
 -dontwarn com.baidu.location.**
 -keep class com.baidu.location.** {*;}
@@ -111,3 +116,24 @@
 -keep class **.R{*;}
 -dontwarn cn.sharesdk.**
 -dontwarn **.R$*
+
+#TalkingData
+-keep class com.gametalkingdata.** {*;}
+
+-keep class com.tendcloud.tenddata.** {*;}
+-keep class com.tendcloud.** {*;}
+-keep public class com.tendcloud.tenddata.** { public protected *;}
+-keepclassmembers class com.tendcloud.tenddata.**{
+    public void *(***);
+}
+
+#umeng
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+-keepclassmembers class * {
+   public <init> (org.json.JSONObject);
+}
+-keep class com.umeng.** {*;}
+-keep class com.umeng.analytics.** {*;}
