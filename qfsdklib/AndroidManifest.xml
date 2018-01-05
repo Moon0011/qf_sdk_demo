@@ -125,7 +125,8 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Dialog" />
 
-        <activity android:name="com.game.sdk.plugin.hbfpay.PayInterfaceActivity"
+        <activity
+            android:name="com.game.sdk.plugin.hbfpay.PayInterfaceActivity"
             android:configChanges="screenSize|orientation|keyboardHidden|navigation"
             android:launchMode="singleTask"
             android:screenOrientation="behind"
