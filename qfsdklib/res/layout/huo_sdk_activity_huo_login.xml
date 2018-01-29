@@ -2,43 +2,41 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/huo_sdk_login_bg_translucence_black">
-
-    <com.game.sdk.view.HuoFastLoginViewNew
-        android:id="@+id/huo_sdk_fastLoginView_new"
+    android:background="@color/huo_sdk_login_bg_translucence_black"
+    >
+    <com.game.sdk.view.HuoFastLoginView
+        android:id="@+id/huo_sdk_fastLoginView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:visibility="gone"/>
-
-    <com.game.sdk.view.HuoLoginViewNew
-        android:id="@+id/huo_sdk_loginView_new"
+        android:visibility="gone"
+        >
+    </com.game.sdk.view.HuoFastLoginView>
+    <com.game.sdk.view.HuoLoginView
+        android:id="@+id/huo_sdk_loginView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:visibility="gone"/>
+        android:visibility="gone"
+        >
+    </com.game.sdk.view.HuoLoginView>
 
-    <com.game.sdk.view.RealNameAuthView
-        android:id="@+id/real_name_auth_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:visibility="gone"/>
-
-    <com.game.sdk.view.HuoRegisterViewNew
+    <com.game.sdk.view.HuoRegisterView
         android:id="@+id/huo_sdk_registerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:visibility="gone"/>
-
-    <com.game.sdk.view.HuoUserNameRegisterViewNew
+        android:visibility="gone"
+        >
+    </com.game.sdk.view.HuoRegisterView>
+    <com.game.sdk.view.HuoUserNameRegisterView
         android:id="@+id/huo_sdk_userNameRegisterView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:visibility="gone"/>
-
+        android:visibility="gone"
+        >
+    </com.game.sdk.view.HuoUserNameRegisterView>
     <com.game.sdk.view.SelectAccountView
         android:id="@+id/huo_sdk_selectAccountView"
         android:layout_width="match_parent"
